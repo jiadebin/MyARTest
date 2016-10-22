@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">全能出行助手</string>
+    <string name="help">提示：强烈建议你使用本应用时首先要打开网络连接和GPS功能,并且在室外使用,这样能获得最好的体验哦~\n全能出行助手主要由以下几个功能：\n1、添加事件：用户可以预先设定一个即将发生的事件,设置好事件发生的地点以及距离现在的时间(多长时间后发生),设置完成后,小助手便为用户记下了这个事件,预定时间到时,你会收到小助手的提醒消息(在手机的通知栏),点击这个消息,即可进入一个地图界面,地图上显示着符合你要求的地点。\n2、周边搜索功能：在这里,你可以按类型了、或名称搜索周边的地点(如银行),小助手将为你找出身边符合条件的相关地点,你还可以通过菜单切换到卫星地图。\n3、我的地图：我的地图功能为你提供了自定义地点的服务,你可以在地图上长按自己感兴趣的地点,在弹出的对话框中给该地点命名以及添加描述信息,小助手会帮你记住这些地点,你也可以在添加事件功能里使用这些地点,当然,在这个地图的菜单里,你也可以在卫星和普通模式中切换。\n4、哈工大实景导航：这应该算是本应用最有特色的功能了,如果你来到了哈尔滨工业大学的校园,但是苦于对校园环境的不熟悉而找不到想要去的地点,那么打开这个功能吧,你会发现这好像是手机的拍照界面,但是当你此时用手机的镜头对着身边的建筑物原地转一圈,你会发现惊喜哦,你会看到一些标注飘在建筑物上,没错！这就是实景导航。它可以让你在哈工大的校园里不用问路而行走自如,找到想去的地点！</string>
+    <string name="about">欢迎使用-全能出行助手！\n版本：1.0\n作者：贾德宾  曾珊  张佳程\nFrom：哈尔滨工业大学软件学院</string>
+    <string name="map_help">1、此地图将显示您的所有自定义地点信息，如果您还没创建过地点，赶快尝试吧~\n2、长按地图某个位置即可看到该位置的详细信息，并可给该地点自定义名称、描述信息，将其作为自己的常用地点。\n3、通过切换地图模式菜单还可以切换到卫星地图模式哦~</string>
+    <string name="poi_help">1、从主界面进入时,你可以在上侧的搜索框中输入想要搜索的地点类型或名称,小助手将为您从附近搜索符合条件的地点，并在地图上显示搜索结果。\n2、从通知栏进入时，您将看到执行预订事件的地点已经在地图上显示出来。</string>
+    <string name="alarm_help">提示:你可以在这里添加一个在预定时间之后发生的事件,并为该事件制定发生地点,地点可以从下拉列表中选择也可以从你的自定义地点中选择,设置好时间之后,您可以继续使用其他功能,也可以退出程序,小助手将在预定时间到达时给您提醒,并在地图上显示事件的发生地点。</string>
+    
+    <string name="pull_to_refresh_pull_label">下拉刷新...</string>
+    <string name="pull_to_refresh_release_label">松手刷新...</string>
+    <string name="pull_to_refresh_refreshing_label">正在加载...</string>
+    <string name="pull_to_refresh_tap_label">点击刷新...</string>
+    
+    <string name="app_list_header_refresh_down">下拉刷新</string>
+    <string name="app_list_header_refresh_last_update">上次更新于:</string>
+    <string name="pulltorefresh">下拉刷新</string>
+    <string name="lastupdate">最后刷新时间</string>
+    <string name="app_list_footer_more">加载更多</string>
+    <string name="app_list_footer_loading">正在加载</string>
+    
+</resources>

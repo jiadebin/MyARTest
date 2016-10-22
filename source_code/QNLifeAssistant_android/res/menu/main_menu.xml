@@ -1,0 +1,9 @@
+
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <group android:id="@+id/group1" android:menuCategory="secondary">
+            <item android:id="@+id/item_help_main" android:title="帮助?"></item>
+            <item android:id="@+id/item_ablout" android:title="关于"></item>
+            <item android:id="@+id/item_exit" android:title="退出" android:orderInCategory="5"></item>
+        </group>
+        
+    </menu>

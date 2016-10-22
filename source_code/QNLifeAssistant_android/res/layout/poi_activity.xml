@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:orientation="vertical"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+    >
+    <LinearLayout 
+    android:paddingTop="3dip"
+    android:orientation="horizontal"  
+    android:layout_width="fill_parent"  
+    android:layout_height="wrap_content"  
+    >  
+	    <EditText
+	    	android:id="@+id/search_word"
+	    	android:hint="请输入搜索关键字,如 KTV"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:layout_weight="20"
+	    	></EditText>
+	    <Button
+	    	android:id="@+id/btn_search"
+	    	android:text="搜索"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:layout_gravity="right"
+	    	android:layout_weight="1"
+	    	></Button>
+    </LinearLayout>
+    <com.baidu.mapapi.MapView 
+        android:id="@+id/poi_mapview"  
+        android:layout_width="fill_parent"  
+        android:layout_height="fill_parent"  
+        android:clickable="true"  
+    />  
+</LinearLayout> 

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@+id/ib_alarm"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/addthing" />
+
+    <ImageButton
+        android:id="@+id/ib_poi"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/ib_alarm"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/poi" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/ib_alarm"
+        android:layout_below="@+id/ib_alarm"
+        android:layout_marginRight="20dp"
+        android:text="添加事件" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView3"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignRight="@+id/ib_poi"
+        android:layout_marginRight="18dp"
+        android:text="周边搜索" />
+
+    <ImageButton
+        android:id="@+id/ib_map"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:layout_alignLeft="@+id/ib_alarm"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="33dp"
+        android:background="@drawable/location" />
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_below="@+id/ib_map"
+        android:text="我的地图" />
+    
+    <ImageButton
+        android:id="@+id/ib_ar"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:layout_above="@+id/textView1"
+        android:layout_alignLeft="@+id/ib_poi"
+        android:background="@drawable/ar" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_alignLeft="@+id/ib_ar"
+        android:text="哈工大实景导航" />
+
+    <ImageButton
+        android:id="@+id/ib_activity"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:layout_alignLeft="@+id/ib_map"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="33dp"
+        android:background="@drawable/events" />
+	<TextView
+        android:id="@+id/TextViewActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ib_activity"
+        android:layout_below="@+id/ib_activity"
+        android:layout_marginLeft="8dp"
+        android:text="近期活动汇总" />
+</RelativeLayout>

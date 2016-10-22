@@ -1,0 +1,8 @@
+
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <group android:id="@+id/group1" android:menuCategory="secondary">
+            <item android:id="@+id/item_help_map" android:title="帮助?"></item>
+            <item android:id="@+id/item_changeMode_map" android:title="切换到卫星地图"></item>
+        </group>
+        
+    </menu>

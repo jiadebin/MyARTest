@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="styleName" parent="android:Widget.EditText">
+        <item name="android:inputType">text</item>
+        <item name="android:singleLine">true</item>
+    </style>
+</resources>
